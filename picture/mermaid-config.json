@@ -1,0 +1,10 @@
+{
+    "theme": "default",
+    "themeVariables": {
+        "fontFamily": "Microsoft YaHei, SimSun, sans-serif"
+    },
+    "flowchart": {
+        "useMaxWidth": true,
+        "htmlLabels": true
+    }
+}

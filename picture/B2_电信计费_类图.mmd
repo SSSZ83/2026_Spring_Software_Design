@@ -1,0 +1,26 @@
+classDiagram
+    class callist {
+        #string srcAreaCode
+        #string srcPhone
+        #string dstAreaCode
+        #string dstPhone
+        #int duration
+        +In(ifstream&)
+        +print()
+    }
+    class charge {
+        -char callType
+        -float fee
+        +SetBaseFromCallist(callist)
+        +Compute(map~string,float~)
+        +In(ifstream&)
+        +Out(ofstream&)
+        +print()
+    }
+    class user {
+        -string name
+        -string phoneNumber
+        +In(ifstream&)
+        +print()
+    }
+    callist <|-- charge : public

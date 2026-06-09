@@ -1,0 +1,8 @@
+flowchart TD
+    A[主菜单] --> B{选择操作}
+    B -->|"1. 练习"| C[generateRandomString<br/>随机长度 5~20<br/>随机字符 a-z, A-Z, 0-9]
+    B -->|"2. 查成绩"| G[显示上一次练习成绩]
+    B -->|"3. 退出"| H[退出程序]
+    C --> D[用户键盘输入]
+    D --> E[compareStrings<br/>逐位比较<br/>计算正确率 %]
+    E --> F[showComparison<br/>标注错误位置 ^ <br/>显示正确率及评语]

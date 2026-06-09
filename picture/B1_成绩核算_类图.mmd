@@ -1,0 +1,22 @@
+classDiagram
+    class Student {
+        -long id
+        -string name
+        -string major
+        +GetId() long
+        +GetName() string
+        +GetMajor() string
+    }
+    class Marks {
+        -float usualScore
+        -float midtermScore
+        -float finalScore
+        -float zpScore
+        -char dj
+        +In(ifstream&)
+        +Out(ofstream&)
+        +ComputeZP()
+        +ComputeDJ()
+        +print()
+    }
+    Student <|-- Marks : public

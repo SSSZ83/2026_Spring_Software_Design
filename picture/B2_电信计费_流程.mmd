@@ -1,0 +1,18 @@
+flowchart TD
+    A[主菜单] --> B{选择操作}
+    B -->|"1. 计算"| C[calculateFees]
+    B -->|"2. 话费"| D[queryFee]
+    B -->|"3. 话单"| E[queryCalls]
+    B -->|"4. 显示全部"| F[displayAll]
+    B -->|"5. 退出"| G[退出程序]
+    C --> H["[1] 加载 fl.dat → rates"]
+    H --> I["[2] 加载 yh.dat → users"]
+    I --> J["[3] 加载 hd.dat → calls"]
+    J --> K["[4] 构建 charge 并 Compute"]
+    K --> L["[5] 输出 fy.dat"]
+    L --> M["feeCalculated = true"]
+    D --> N{feeCalculated?}
+    E --> N
+    F --> N
+    N -->|否| C
+    N -->|是| O[执行查询 / 显示]

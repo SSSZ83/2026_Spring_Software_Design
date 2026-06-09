@@ -1,0 +1,10 @@
+flowchart TD
+    A["选择输入进制<br/>1.BIN 2.OCT 3.DEC 4.HEX"] --> B[用户输入数值]
+    B --> C["isValidInput(str, base)<br/>检查字符是否属于指定进制"]
+    C -->|合法| D["stoull(str, nullptr, base)<br/>字符串 → unsigned long long"]
+    C -->|非法| B
+    D --> E[输出四种进制]
+    E --> F["BIN: toBinary(value)"]
+    E --> G["OCT: oct << value"]
+    E --> H["DEC: dec << value"]
+    E --> I["HEX: hex << uppercase << value"]
