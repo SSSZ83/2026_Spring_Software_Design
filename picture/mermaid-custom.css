@@ -1,0 +1,17 @@
+/* 放大 Mermaid 图表中的所有文字 */
+.mermaid {
+    font-size: 18px !important;
+}
+.node rect,
+.node circle,
+.node ellipse,
+.node polygon,
+.node path {
+    stroke-width: 2px !important;
+}
+.edgeLabel {
+    font-size: 16px !important;
+}
+.nodeLabel {
+    font-size: 18px !important;
+}

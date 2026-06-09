@@ -1,10 +1,16 @@
 {
     "theme": "default",
     "themeVariables": {
-        "fontFamily": "Microsoft YaHei, SimSun, sans-serif"
+        "fontFamily": "Microsoft YaHei, SimSun, sans-serif",
+        "fontSize": "20px",
+        "primaryTextColor": "#333333",
+        "lineColor": "#555555"
     },
     "flowchart": {
         "useMaxWidth": true,
-        "htmlLabels": true
+        "htmlLabels": true,
+        "nodeSpacing": 60,
+        "rankSpacing": 60,
+        "padding": 20
     }
 }
