@@ -1,0 +1,131 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C++ MSVC 调试 (A1 分数统计)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/A1/score_system.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/A1",
+            "environment": [],
+            "console": "integratedTerminal",
+            "preLaunchTask": "MSVC 编译 (A1)"
+        },
+        {
+            "name": "C++ MSVC 调试 (A2 打字程序)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/A2/typing_practice.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/A2",
+            "environment": [],
+            "console": "integratedTerminal",
+            "preLaunchTask": "MSVC 编译 (A2)"
+        },
+        {
+            "name": "C++ MSVC 调试 (A3 文本编辑器)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/A3/text_editor.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/A3",
+            "environment": [],
+            "console": "integratedTerminal",
+            "preLaunchTask": "MSVC 编译 (A3)"
+        },
+        {
+            "name": "C++ MSVC 调试 (A4 加密解密)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/A4/encryption.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/A4",
+            "environment": [],
+            "console": "integratedTerminal",
+            "preLaunchTask": "MSVC 编译 (A4)"
+        },
+        {
+            "name": "C++ Qt 调试 (B1 成绩核算 GUI)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/B1/release/grade_system_qt.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/B1",
+            "environment": [
+                {
+                    "name": "PATH",
+                    "value": "D:\\Anaconda\\Library\\bin;${env:PATH}"
+                },
+                {
+                    "name": "QT_PLUGIN_PATH",
+                    "value": "D:\\Anaconda\\Library\\plugins"
+                }
+            ],
+            "console": "integratedTerminal",
+            "preLaunchTask": "MSVC 编译 (B1 Qt GUI)"
+        },
+        {
+            "name": "C++ MSVC 调试 (B1 成绩核算)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/B1/grade_system.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/B1",
+            "environment": [],
+            "console": "integratedTerminal",
+            "preLaunchTask": "MSVC 编译 (B1)"
+        },
+        {
+            "name": "C++ MSVC 调试 (A5 进制转换器)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/A5/converter.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/A5",
+            "environment": [],
+            "console": "integratedTerminal",
+            "preLaunchTask": "MSVC 编译 (A5)"
+        },
+        {
+            "name": "C++ MSVC 调试 (B2 电信计费)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/B2/telecom_billing.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/B2",
+            "environment": [],
+            "console": "integratedTerminal",
+            "preLaunchTask": "MSVC 编译 (B2)"
+        },
+        {
+            "name": "C++ Qt 调试 (B2 电信计费 GUI)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/B2/release/telecom_billing_qt.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/B2",
+            "environment": [
+                {
+                    "name": "PATH",
+                    "value": "D:\\Anaconda\\Library\\bin;${env:PATH}"
+                },
+                {
+                    "name": "QT_PLUGIN_PATH",
+                    "value": "D:\\Anaconda\\Library\\plugins"
+                }
+            ],
+            "console": "integratedTerminal",
+            "preLaunchTask": "MSVC 编译 (B2 Qt GUI)"
+        }
+    ]
+}

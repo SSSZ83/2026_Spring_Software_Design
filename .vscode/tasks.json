@@ -1,0 +1,158 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "MSVC 编译 (A1)",
+            "type": "shell",
+            "command": "call \"D:\\visual studio\\VC\\Auxiliary\\Build\\vcvars64.bat\" >nul 2>&1 && cl.exe /utf-8 /EHsc /Zi /std:c++17 /Fe:score_system.exe main.cpp",
+            "options": {
+                "cwd": "${workspaceFolder}/A1"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "MSVC 编译 (A2)",
+            "type": "shell",
+            "command": "call \"D:\\visual studio\\VC\\Auxiliary\\Build\\vcvars64.bat\" >nul 2>&1 && cl.exe /utf-8 /EHsc /Zi /std:c++17 /Fe:typing_practice.exe main.cpp",
+            "options": {
+                "cwd": "${workspaceFolder}/A2"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "MSVC 编译 (A3)",
+            "type": "shell",
+            "command": "call \"D:\\visual studio\\VC\\Auxiliary\\Build\\vcvars64.bat\" >nul 2>&1 && cl.exe /utf-8 /EHsc /Zi /std:c++17 /Fe:text_editor.exe main.cpp",
+            "options": {
+                "cwd": "${workspaceFolder}/A3"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "MSVC 编译 (A4)",
+            "type": "shell",
+            "command": "call \"D:\\visual studio\\VC\\Auxiliary\\Build\\vcvars64.bat\" >nul 2>&1 && cl.exe /utf-8 /EHsc /Zi /std:c++17 /Fe:encryption.exe main.cpp",
+            "options": {
+                "cwd": "${workspaceFolder}/A4"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "MSVC 编译 (B1)",
+            "type": "shell",
+            "command": "call \"D:\\visual studio\\VC\\Auxiliary\\Build\\vcvars64.bat\" >nul 2>&1 && cl.exe /utf-8 /EHsc /Zi /std:c++17 /Fe:grade_system.exe student.cpp marks.cpp main.cpp",
+            "options": {
+                "cwd": "${workspaceFolder}/B1"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "MSVC 编译 (B1 Qt GUI)",
+            "type": "shell",
+            "command": "${workspaceFolder}\\B1\\build_qt.bat",
+            "options": {
+                "cwd": "${workspaceFolder}/B1"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "MSVC 编译 (A5)",
+            "type": "shell",
+            "command": "call \"D:\\visual studio\\VC\\Auxiliary\\Build\\vcvars64.bat\" >nul 2>&1 && cl.exe /utf-8 /EHsc /Zi /std:c++17 /Fe:converter.exe main.cpp",
+            "options": {
+                "cwd": "${workspaceFolder}/A5"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "MSVC 编译 (B2)",
+            "type": "shell",
+            "command": "call \"D:\\visual studio\\VC\\Auxiliary\\Build\\vcvars64.bat\" >nul 2>&1 && cl.exe /utf-8 /EHsc /Zi /std:c++17 /Fe:telecom_billing.exe callist.cpp charge.cpp user.cpp main.cpp",
+            "options": {
+                "cwd": "${workspaceFolder}/B2"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "MSVC 编译 (B2 Qt GUI)",
+            "type": "shell",
+            "command": "${workspaceFolder}\\B2\\build_qt.bat",
+            "options": {
+                "cwd": "${workspaceFolder}/B2"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
