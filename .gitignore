@@ -53,3 +53,5 @@ $RECYCLE.BIN/
 #  VS Code 用户设置
 # ============================================
 .vscode/settings.local.json
+
+*.doc
