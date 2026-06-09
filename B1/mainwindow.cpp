@@ -11,7 +11,7 @@ MainWindow::MainWindow(QWidget *parent)
     setupUI();
     applyStyle();
     setWindowTitle(QString::fromUtf8("学生成绩核算系统 v1.0"));
-    resize(1100, 700);
+    resize(1920, 1080);
 }
 
 MainWindow::~MainWindow() {}
